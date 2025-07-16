@@ -35,42 +35,6 @@ My mission is to bridge the gap between technical excellence and business impact
 ### 🎓 Currently Learning
 [![Learning](https://skillicons.dev/icons?i=react,nextjs,mongodb,supabase)](https://skillicons.dev)
 
----
-
-### 📊 Featured Projects
-
-<table>
-  <tr>
-    <td>
-      <b>Profanity Monitoring Dashboard</b><br>
-      <img src="assets/project1.jpg" width="100%" alt="Profanity Dashboard Screenshot">
-      <p>Built an AWS-based dashboard that uses NLP to detect agent profanity in real-time call transcripts. Enhanced with false positive tracking & LLM analysis.</p>
-      <a href="https://github.com/Sonteru4" target="_blank">View on GitHub</a>
-    </td>
-    <td>
-      <b>AI Job Application Bot</b><br>
-      <img src="assets/project2.jpg" width="100%" alt="Job Bot Screenshot">
-      <p>AI agent that tailors and submits job applications using resume parsing, NLP, and automation tools. Built to reduce manual effort in job searches.</p>
-      <a href="https://github.com/Sonteru4" target="_blank">View on GitHub</a>
-    </td>
-  </tr>
-</table>
-
----
-
-### 📅 Publications
-<div>
-  <a href="https://medium.com/@sanjanaonteru">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank" alt="Medium">
-  </a>
-  <a href="https://dev.to/sonteru4">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" target="_blank" alt="Dev.to">
-  </a>
-</div>
-<p>I regularly write about AI, job strategy, and self-organization on Medium & Dev.to. Check out my latest insights and how-tos!</p>
-
----
-
 ### 👤 Connect with Me
 <div>
   <a href="https://www.linkedin.com/in/sanjanaonteru" target="_blank">
@@ -79,16 +43,10 @@ My mission is to bridge the gap between technical excellence and business impact
   <a href="https://github.com/Sonteru4" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" width="35"/>
   </a>
-  <a href="mailto:sanjana.onteru@gmail.com">
+  <a href="mailto:sanjanaonteru1@gmail.com">
     <img src="https://img.icons8.com/ios-filled/50/000000/email.png" width="35"/>
   </a>
 </div>
-
----
-
-### 📅 Employer?
-> [!IMPORTANT]  
-> 🔗 <a href="https://drive.google.com/file/d/your-resume-link" target="_blank">Download my resume</a>
 
 ---
 
