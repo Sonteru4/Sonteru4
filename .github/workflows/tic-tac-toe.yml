@@ -1,0 +1,36 @@
+name: Tic-Tac-Toe Game Handler
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  handle-move:
+    if: github.event.issue.pull_request == null && (contains(github.event.comment.body, '/move') || contains(github.event.comment.body, '/reset'))
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install PyGithub
+
+      - name: Process Tic-Tac-Toe move
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/tic_tac_toe_handler.py \
+            --issue-number ${{ github.event.issue.number }} \
+            --comment-id ${{ github.event.comment.id }} \
+            --comment-body "${{ github.event.comment.body }}" \
+            --commenter "${{ github.event.comment.user.login }}"

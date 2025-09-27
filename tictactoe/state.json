@@ -1,0 +1,18 @@
+{
+  "board": [
+    "X",
+    "",
+    "",
+    "X",
+    "O",
+    "",
+    "X",
+    "",
+    "O"
+  ],
+  "currentPlayer": "X",
+  "gameStatus": "won",
+  "winner": "X",
+  "moveCount": 5,
+  "lastMove": "A3"
+}

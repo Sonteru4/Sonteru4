@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe | Sanjana Onteru</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/" class="back-link" aria-label="Back to README">← Back to README</a>
+            <h1>🎮 Tic-Tac-Toe</h1>
+            <p class="subtitle">Challenge yourself or play against AI!</p>
+        </header>
+
+        <main>
+            <div class="game-controls">
+                <div class="game-mode">
+                    <label for="game-mode-select">Game Mode:</label>
+                    <select id="game-mode-select" aria-label="Select game mode">
+                        <option value="human">2 Players</option>
+                        <option value="ai">vs AI</option>
+                    </select>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-label">Wins:</span>
+                        <span id="wins-count" aria-live="polite">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Losses:</span>
+                        <span id="losses-count" aria-live="polite">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Draws:</span>
+                        <span id="draws-count" aria-live="polite">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-board" id="gameBoard" role="grid" aria-label="Tic-tac-toe game board">
+                <button class="cell" data-index="0" aria-label="Top left cell" role="gridcell"></button>
+                <button class="cell" data-index="1" aria-label="Top center cell" role="gridcell"></button>
+                <button class="cell" data-index="2" aria-label="Top right cell" role="gridcell"></button>
+                <button class="cell" data-index="3" aria-label="Middle left cell" role="gridcell"></button>
+                <button class="cell" data-index="4" aria-label="Center cell" role="gridcell"></button>
+                <button class="cell" data-index="5" aria-label="Middle right cell" role="gridcell"></button>
+                <button class="cell" data-index="6" aria-label="Bottom left cell" role="gridcell"></button>
+                <button class="cell" data-index="7" aria-label="Bottom center cell" role="gridcell"></button>
+                <button class="cell" data-index="8" aria-label="Bottom right cell" role="gridcell"></button>
+            </div>
+            
+            <div class="game-status" id="gameStatus" aria-live="polite" aria-atomic="true">
+                Player X's turn
+            </div>
+            
+            <div class="game-actions">
+                <button id="resetBtn" class="reset-btn" aria-label="Start new game">🔄 New Game</button>
+                <button id="clearStatsBtn" class="clear-stats-btn" aria-label="Clear statistics">🗑️ Clear Stats</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built by <a href="https://github.com/Sonteru4" target="_blank" rel="noopener">Sanjana Onteru</a> | 
+            <a href="https://github.com/Sonteru4/Sonteru4/issues/1" target="_blank" rel="noopener">Play in Issues</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

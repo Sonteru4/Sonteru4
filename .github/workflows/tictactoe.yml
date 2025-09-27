@@ -1,0 +1,53 @@
+name: Tic-Tac-Toe Game Handler
+
+on:
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action to perform'
+        required: true
+        default: 'reset'
+        type: choice
+        options:
+        - reset
+        - status
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  handle-game:
+    if: github.event.issue.pull_request == null && (contains(github.event.comment.body, '/move') || contains(github.event.comment.body, '/reset') || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Process Tic-Tac-Toe move
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          COMMENT_ID: ${{ github.event.comment.id }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENTER: ${{ github.event.comment.user.login }}
+          REPO_NAME: ${{ github.repository }}
+        run: |
+          python tictactoe/game_handler.py \
+            --issue-number "$ISSUE_NUMBER" \
+            --comment-id "$COMMENT_ID" \
+            --comment-body "$COMMENT_BODY" \
+            --commenter "$COMMENTER" \
+            --repo-name "$REPO_NAME"

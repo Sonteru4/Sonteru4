@@ -1,0 +1,45 @@
+{
+  "board": [
+    "X",
+    "X",
+    "X",
+    "",
+    "O",
+    "O",
+    "",
+    "",
+    ""
+  ],
+  "currentPlayer": "X",
+  "gameStatus": "won",
+  "winner": "X",
+  "moveCount": 5,
+  "lastMove": "C1",
+  "gameHistory": [
+    {
+      "player": "X",
+      "position": 0,
+      "moveNumber": 1
+    },
+    {
+      "player": "O",
+      "position": 4,
+      "moveNumber": 2
+    },
+    {
+      "player": "X",
+      "position": 1,
+      "moveNumber": 3
+    },
+    {
+      "player": "O",
+      "position": 5,
+      "moveNumber": 4
+    },
+    {
+      "player": "X",
+      "position": 2,
+      "moveNumber": 5
+    }
+  ]
+}

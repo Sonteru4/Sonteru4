@@ -1,0 +1,38 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Main content -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">
+    Sanjana Onteru
+  </text>
+  
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="white" opacity="0.9">
+    ML/AI • Automations • Mentoring
+  </text>
+  
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" opacity="0.8">
+    I build production ML/AI systems and ruthless automations
+  </text>
+  
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" opacity="0.8">
+    I mentor, podcast, and ship. If it compounds, I care.
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="150" r="40" fill="white" opacity="0.1"/>
+  <circle cx="1000" cy="480" r="60" fill="white" opacity="0.1"/>
+  <circle cx="150" cy="500" r="30" fill="white" opacity="0.1"/>
+  
+  <!-- Tech icons -->
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="white" opacity="0.6">
+    🚀 🤖 🎯
+  </text>
+</svg>
