@@ -1,6 +1,16 @@
 # Sanjana Onteru
 
-**I build production ML/AI systems and ruthless automations. I mentor, podcast, and ship. If it compounds, I care.**
+Hi! I’m Sanjana Onteru, a planet-conscious ENTJ-A living in the USA. 🌎
+I’m an enthusiastic data storyteller + ML/AI engineer experienced in data programming, business analytics, and building visualizations — always excited about ongoing analytical learning to solve complex problems.
+I’m passionate about AI, travel, sustainability, entrepreneurship, Asian culture, and social impact. I also love traveling, swimming, and soaking up beach vibes. 🏝️
+
+**More about me**
+- 📍 Currently living in: Dallas, TX
+- 🥦 Favorite cuisine: Thai fried rice (vegetarian 🌱)
+- 📖 Favorite books: The Age of Sustainable Development / The End of Poverty (Jeffrey Sachs), Principles (Ray Dalio)
+- 🌎 Favorite places I’ve visited: South Korea, Bali, Puerto Rico
+- ⛰️ Favorite hiking escapes: Arizona, Colorado, Utah
+- 🤝 Connect with me if you want to talk more!
 
 [![GitHub followers](https://img.shields.io/github/followers/Sonteru4?style=social)](https://github.com/Sonteru4)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/onteru/)
