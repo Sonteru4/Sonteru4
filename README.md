@@ -88,7 +88,7 @@ Next: X | Status: Waiting for X's move...
 
 **Ready to level up your ML game?** I mentor aspiring data scientists and ML engineers.
 
-- **📧 Email**: [sanjanaonteru1@gmail.com](mailto:sanjanaonteru1@gmail.com)
+
 - **💼 LinkedIn**: [Connect for mentoring](https://www.linkedin.com/in/onteru/)
 - **☕ Buy Me A Coffee**: [Support my work](https://buymeacoffee.com/sonteru)
 - **📝 Medium**: [Read my articles](https://medium.com/@sanjanaonteru404)
