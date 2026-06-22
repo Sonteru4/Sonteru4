@@ -1,10 +1,5 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FDCEDF&height=200&section=header&text=Sanjana%20Onteru&fontSize=40&fontColor=333333&animation=fadeIn" alt="header"/>
-</div>
 
-<div align="center">
-
-Hi! I'm Sanjana — a planet-conscious **ENTJ-A** living in Dallas, TX. 🌎
+Hi! I'm Sanjana - a planet-conscious **ENTJ-A** living in Dallas, TX. 🌎
 
 I'm a **Forward Deployed AI Engineer** who builds and evaluates production agentic & voice AI for regulated industries (banking, healthcare) — where reliability, compliance, and graceful failure matter as much as raw capability. I came up through data storytelling, analytics, and ML, and I love turning messy real-world problems into systems that actually ship.
 
@@ -78,23 +73,6 @@ Outside of work I'm passionate about AI, travel, sustainability, entrepreneurshi
 
 🖥️ [Play Now on GitHub Pages](/tic-tac-toe/) — *Instant play, no setup required*
 
-### 💬 Play in Issues (Turn-Based)
-
-Comment `/move A1` (or `B2`, `C3`, etc.) on [this pinned issue](https://github.com/Sonteru4/Sonteru4/issues/1) to play!
-
-<!-- TTT-BOARD:START -->
-```
-   A   B   C
-1 [ ] [ ] [ ]
-2 [ ] [ ] [ ]
-3 [ ] [ ] [ ]
-
-Next: X | Status: Waiting for X's move...
-```
-<!-- TTT-BOARD:END -->
-
-*Board updates automatically when someone plays.*
-
 ***
 
 ## 💬 Connect
@@ -103,8 +81,3 @@ Next: X | Status: Waiting for X's move...
 - 📝 **Medium:** [@sanjanaonteru404](https://medium.com/@sanjanaonteru404)
 - 🌐 **Website:** [sanjanaonteru.com](https://sanjanaonteru.com)
 
-***
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FDCEDF&height=120&section=footer" alt="footer"/>
-</div>
