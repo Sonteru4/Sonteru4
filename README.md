@@ -20,11 +20,6 @@ Outside of work I'm passionate about AI, travel, sustainability, entrepreneurshi
 
 <div align="center">
 
-[
-[
-[
-[
-
 </div>
 
 ***
