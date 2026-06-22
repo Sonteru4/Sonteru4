@@ -1,7 +1,7 @@
 
 Hi! I'm Sanjana - a planet-conscious **ENTJ-A** living in Dallas, TX. 🌎
 
-I'm a **Forward Deployed AI Engineer** who builds and evaluates production agentic & voice AI for regulated industries (banking, healthcare) — where reliability, compliance, and graceful failure matter as much as raw capability. I came up through data storytelling, analytics, and ML, and I love turning messy real-world problems into systems that actually ship.
+I'm a **Forward Deployed AI Engineer** who builds and evaluates production agentic & voice AI for regulated industries (banking, healthcare) - where reliability, compliance, and graceful failure matter as much as raw capability. I came up through data storytelling, analytics, and ML, and I love turning messy real-world problems into systems that actually ship.
 
 Outside of work I'm passionate about AI, travel, sustainability, entrepreneurship, Asian culture, and social impact — and I love swimming and soaking up beach vibes. 🏝️
 
@@ -63,17 +63,7 @@ Outside of work I'm passionate about AI, travel, sustainability, entrepreneurshi
 | **Data** | FastAPI · PostgreSQL · Redis · PGVector · Weaviate |
 | **Practices** | evals · CI/CD · monitoring & observability |
 
-🏅 **Credentials:** PMP · AWS Certified Machine Learning – Specialty
-
-***
-
-## 🎮 Play Tic-Tac-Toe
-
-⚡ Play a turn right now: click **'Play on Pages'** or comment `/move B2` on the pinned issue — the board updates automatically.
-
-🖥️ [Play Now on GitHub Pages](/tic-tac-toe/) — *Instant play, no setup required*
-
-***
+🏅 **Credentials:** PMP · AWS Certified Machine Learning - Specialty
 
 ## 💬 Connect
 
